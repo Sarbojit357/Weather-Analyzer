@@ -52,11 +52,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.search-box button::before{
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    content: "\f002";
+    color: #000;
 }
 .search-box button:hover{
     color: #fff;
