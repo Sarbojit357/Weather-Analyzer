@@ -6,7 +6,6 @@
     outline: none;
     font-family: sans-serif;
 }
-
 body{
     min-height: 100vh;
     display: flex;
@@ -17,7 +16,6 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .container{
     width: 400px;
     height: min-content;
@@ -25,7 +23,6 @@ body{
     border-radius: 12px;
     padding: 28px;
 }
-
 .search-box{
     width: 100%;
     height: min-content;
@@ -33,7 +30,6 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
 .search-box input{
     width: 84%;
     font-size: 20px;
@@ -43,11 +39,9 @@ body{
     padding: 12px 16px;
     border-radius: 14px;
 }
-
 .search-box input::placeholder{
     color: #000;
 }
-
 .search-box button{
     width: 46px;
     height: 46px;
@@ -55,13 +49,19 @@ body{
     border-radius: 50%;
     cursor: pointer;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.search-box button::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f002";
+}
 .search-box button:hover{
     color: #fff;
     background-color: #ababab;
 }
-
 .weather-body{
     justify-content: center;
     align-items: center;
@@ -72,64 +72,52 @@ body{
 .weather-body img{
     width: 60%;
 }
-
 .weather-box{
     margin-block: 20px;
     text-align: center;
 }
-
 .weather-box .temperature{
     font-size: 40px;
     font-weight: 800;
     position: relative;
 }
-
 .weather-box .temperature sup{
     font-size: 20px;
     position: absolute;
     font-weight: 600;
 }
-
 .weather-box .description{
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
 }
-
 .weather-details{
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
-
 .humidity, .wind{
     display: flex;
     align-items: center;
 }
-
 .humidity{
     margin-left: 20px;
 }
-
 .wind{
     margin-right: 20px;
 }
-
 .weather-details i{
     font-size: 36px;
 }
-
 .weather-details .text{
     margin-left: 10px;
     font-size: 16px;
 }
-
 .text span{
     font-size: 20px;
     font-weight: 700;
 }
-
 .location-not-found{
     margin-top: 20px;
     display: none;
@@ -137,7 +125,6 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-
 .location-not-found h1{
     font-size: 20px;
     color: #6b6b6b;
