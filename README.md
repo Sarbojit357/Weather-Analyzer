@@ -50,3 +50,28 @@ It provides accurate data such as **temperature, humidity, wind speed, and weath
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/skysnap.git
+2. Navigate to the project directory:
+   ```bash
+   cd skysnap
+3. Open the index.html file in your browser
+
+## 🧩 Future Enhancements
+
+Add hourly and weekly weather forecasts
+
+Implement dark/light mode
+
+Add location-based weather detection
+
+Display sunrise and sunset times
+
+---
+
+## 💬 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo, create a feature branch, and submit a pull request.
+
+---
+## 🧑‍💻 Developed By
+Sarbojit Podder
