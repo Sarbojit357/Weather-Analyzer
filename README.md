@@ -1,7 +1,5 @@
 # 🌤️ SkySnap — Live Weather Tracking Web App
 
-![SkySnap Banner](https://weather-analyzer.vercel.app/favicon.ico)
-
 SkySnap is a **real-time weather tracking** web application that allows users to check the **current weather conditions** of any city or location across the globe.  
 It provides accurate data such as **temperature, humidity, wind speed, and weather status** with a clean, responsive, and modern interface.
 
